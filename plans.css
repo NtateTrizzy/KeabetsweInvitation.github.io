@@ -1,0 +1,91 @@
+*{
+    margin:0;
+}
+main{
+    margin-top:50px;
+    margin:0 auto;
+    max-width:800px;
+    
+}
+.container{
+    display:grid;
+    padding:5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, minmax(150px, auto));
+    grid-gap:40px;
+
+    grid-template-areas: 
+    "myandroids mylanguages mygeneration";
+
+}
+
+#Androids{
+    grid-area: myandroids;
+}
+
+#Languages{
+    grid-area: mylanguages;
+}
+
+#Generation{
+    grid-area: mygeneration;
+}
+
+article img{
+    height: 150px;
+    width: 250px;
+}
+
+article p{
+    text-align: justify;
+}
+
+button{
+    margin-top: 5px;
+    background-color: darkmagenta;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    padding:3px;
+}
+button:hover{
+    background-color:white;
+    border:1px solid darkmagenta;
+    color: darkmagenta;
+}
+
+.container2{
+    margin-top: 18px;
+    margin-bottom:7px;
+
+}
+
+#camera{
+    margin-top:7px;
+    width:838px;
+    height:2o0px;
+}
+
+.container p{
+    margin-top:10px;
+    max-width:838px;
+    text-align: justify;
+    
+}
+
+footer{
+    color:white;
+    background-color: rgb(49, 49, 49);
+    text-align:center;
+    padding: 25px;
+    margin-top:40px;
+}
+
+#thanks{
+    text-decoration: none;
+    color:white;
+}
+
+#thankss{
+    background-color: deeppink;
+}
